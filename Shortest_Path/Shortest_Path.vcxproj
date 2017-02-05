@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{06DEE7A7-FCAF-49D1-A418-A7415B0711E8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Assignment_7</RootNamespace>
+    <RootNamespace>Shortest_Path</RootNamespace>
     <ProjectName>Shortest_Path</ProjectName>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
