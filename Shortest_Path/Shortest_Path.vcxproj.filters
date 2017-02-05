@@ -9,9 +9,11 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="data">
+      <UniqueIdentifier>{f7ca75ae-f745-4a2b-acfc-b151d0113a69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\geo_bin">
+      <UniqueIdentifier>{21c32acb-b695-4fd4-a1fe-84053dacf85c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -80,5 +82,468 @@
   </ItemGroup>
   <ItemGroup>
     <Object Include="library.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\connections.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\coverage.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\intersections.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\named-places.txt">
+      <Filter>data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\geo_bin\usaW70N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW70N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW75N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW80N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N40D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N50D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW85N50D30.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW90N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N40D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N50D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW95N50D30.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW100N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N40D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N50D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW105N50D30.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW110N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N40D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N50D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW115N50D30.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW120N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N25D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N30D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N30D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N35D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N35D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N40D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N40D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N40D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N45D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N45D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N50D5.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N50D10.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N50D20.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N50D30.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW125N50D60.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
+    <None Include="data\geo_bin\usaW130N50D80.dat">
+      <Filter>data\geo_bin</Filter>
+    </None>
   </ItemGroup>
 </Project>

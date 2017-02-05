@@ -152,7 +152,7 @@ void shortestPath(Node* start, Node* dest)
 
 void main()
 {
-	string baseDir = "C:\\Users\\shahk_000\\Documents\\College\\UMiami\\EEN318\\geography";
+	string baseDir = "data";
 
 	cout.precision(9);
 
